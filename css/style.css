@@ -34,7 +34,7 @@ a:link, a:visited {
 
 @-webkit-keyframes matchAnim {
   0% {
-    background: #bcffcc;
+    background: #c3c74c;
   }
   100% {
     background: white;
@@ -43,7 +43,7 @@ a:link, a:visited {
 
 @keyframes matchAnim {
   0% {
-    background: #bcffcc;
+    background: #c3c74c;
   }
   100% {
     background: #fafafa;
@@ -76,7 +76,7 @@ a:link, a:visited {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   transition: .4s ease-in-out;
-  background: #fafafa;
+  background: #000000;
 }
 .card .inside.picked, .card .inside.matched {
   -webkit-transform: rotateY(180deg);
@@ -89,7 +89,7 @@ a:link, a:visited {
           animation-delay: .4s;
 }
 .card .front, .card .back {
-  border: 1px solid #ff7800;
+  border: 1px solid #c6a18e;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: absolute;
